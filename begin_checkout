@@ -1,0 +1,68 @@
+"<script type='text/javascript'>
+utag.link({
+  tealium_event: 'begin_checkout',
+  ecommerce.affiliation: F[28]C[-1]'',
+  ecommerce.items.item_name:F[27]C[-2] 'warehouse package handler',
+  ecommerce.items.item_id:  '',
+  ecommerce.items.item_category: 'warehousing',
+  ecommerce.items.item_category2: ',
+  ecommerce.items.item_category3: 'toronto, ontario
+  ecommerce.items.item_category4: '$95,000-$100,000/year
+  ecommerce.items.item_category5: '28-12-2023
+  ecommerce.items.item_brand: 'ade ch,
+  ecommerce.items.item_variant: 'temporary/contract,
+ 'page_name' : 'job detail warehouse package handler'
+ 'job_system_location' : 'rc' 
+ 'user_type' : 'candidate'
+ 'country ' : 'ch'
+  'full_url' : ''
+  'is_remote' : 'true'
+  'user_registration_status' : 'undefined'
+  'educational requirement' : 'apprenticeship / professional training'
+  'workload' : 'full'
+  'prime_jobs' : 'true'
+ 'previous_page' : 'https://www.adecco.com/us/en/search-jobs/?t=&loc='
+ 'site_language' : 'en'
+ 'fallback_logic_applied' : 'true'
+});
+</script>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
