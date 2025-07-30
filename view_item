@@ -1,0 +1,25 @@
+"<script type='text/javascript'>
+utag.link({
+  tealium_event: 'view_item',                                // Nombre del evento. En este caso, siempre debe ser view_item
+  ecommerce.affiliation: '',
+  ecommerce.items.item_name: 'Programador/a CAD/CAM (Experiencia en Hypermill)- Elche',   // Nombre del puesto <job_name>
+  ecommerce.items.item_id:  '1D0EBF26-C16F-CAAA-F99A-60FF66E207E7'        // ID de la oferta (Referencia) <job_id> <referenceId> ó <job_external_reference> ¿cuál es?
+  ecommerce.items.item_category: '',             // Categoría del puesto de trabajo <job_category>
+  ecommerce.items.item_category2: '',                       // Industria / sector del puesto de trabajo <job_sector>
+  ecommerce.items.item_category3: 'Elche'                   // Localización del trabajo <job_location>
+  ecommerce.items.item_category4: '$95,000-$100,000/year'            // Rango Salarial <job_salary>
+  ecommerce.items.item_category5: '04-07-2025'              // Fecha en al que fue publicada la oferta <job_publication_date>
+  ecommerce.items.item_brand: 'esp'                    // País de la oferta
+  ecommerce.items.item_variant: 'temporal/indefinido,               // tipo de empleo (temporal o indefinido) <contrato> (Tipo de contrato) Nota: ¿cambiar por job_contract en 4dec.co?
+ 'job_posted_date ' :'04-07-2025'                        // Fecha en al que fue publicada la oferta <job_publication_date>
+ 'is_remote' : 'false'                                   // true/false ¿?
+ 'user_registration_status' : 'undefined'                // Recoge si el usuario está registrado en 4dec.co (true/false)
+ 'previous_page' : 'job seeker homepage'                 // Nombre de la página previa (referrer)
+ 'educational requirement' : 'apprenticeship / professional training' // Formación / experiencia <reqExp> Nota: ¿cambiar por job_exp en 4dec.co?
+ 'workload' : 'full'                                     // Tipo de jornada <jornada> Nota: ¿cambiar por job_workday en 4dec.co?
+ 'prime_jobs' : 'true'                                   // ¿?
+ 'previous_page' : https://www.adecco.com/es/es/search-jobs/?t=&loc='  // url de la página previa (referrer)
+ 'site_language' :'es'                                                 // Idioma del sitio web
+ 'fallback_logic_applied' :'true'
+});
+</script>"
