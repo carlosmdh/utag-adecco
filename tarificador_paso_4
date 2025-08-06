@@ -1,0 +1,12 @@
+// Insert this script in "Tu presupuesto" whern thi page is displaed
+<script type="text/javascript">
+window.addEventListener('submit', function (event) { // Listen for form submit event. In this case change 'submit' by the correct event (if not sure if is ¿'page_view'?)
+    // Trigger postMessage
+    parent.postMessage(
+    {
+        'eventName': 'tarificador_steps',
+        'step': 'Tu presupuesto',
+    }, 
+    "https:/adecco.com") // replace with Top Domain
+}, false);
+</script>
