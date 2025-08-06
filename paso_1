@@ -1,0 +1,12 @@
+// Insert this script in "Comenzar presupursto" button
+<script type="text/javascript">
+window.addEventListener('submit', function (event) { // Listen for form submit event. In this case 'submit' by the correct event (if not sure if is 'click')
+    // Trigger postMessage
+    parent.postMessage(
+    {
+        'eventName': 'tarificador_steps',
+        'step': 'Antes de empezar',
+    }, 
+    "https:/uat.adecco.com") // replace with Top Domain
+}, false);
+</script>
