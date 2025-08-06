@@ -7,6 +7,6 @@ window.addEventListener('submit', function (event) { // Listen for form submit e
         'eventName': 'tarificador_steps',
         'step': 'Sobre tu empresa',
     }, 
-    "https:/uat.adecco.com") // replace with Top Domain
+    "https:/adecco.com") // replace with Top Domain
 }, false);
 </script>
