@@ -1,4 +1,4 @@
-// Insert this script in "Comenzar presupursto" button
+// Insert this script in "Comenzar presupuesto" button
 <script type="text/javascript">
 window.addEventListener('submit', function (event) { // Listen for form submit event. In this case 'submit' by the correct event (if not sure if is 'click')
     // Trigger postMessage
