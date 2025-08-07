@@ -5,7 +5,7 @@ window.addEventListener('submit', function (event) { // Listen for form submit e
     parent.postMessage(
     {
         'eventName': 'tarificador_steps',
-        'step': 'What you need', // If question marks and accent mark cause any problems, use 'Que necesitas' instead of '¿Qué necesitas?'
+        'step': 'What you need'
     }, 
     "https://uat.adecco.com") // replace with Top Domain
 }, false);
