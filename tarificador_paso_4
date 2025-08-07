@@ -5,7 +5,7 @@ window.addEventListener('submit', function (event) { // Listen for form submit e
     parent.postMessage(
     {
         'eventName': 'tarificador_steps',
-        'step': 'Tu presupuesto',
+        'step': 'Your budget',
     }, 
     "https://adecco.com") // replace with Top Domain
 }, false);
