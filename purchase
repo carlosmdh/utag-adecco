@@ -18,7 +18,7 @@ utag.link({
 "ecommerce.items.item_brand": "ade es", // Contracting company
 "ecommerce.items.item_variant": "temporary with possibility of incorporation", // Type of employment contract
 "ecommerce.transaction_value": 1,
-"ecommerce.transaction_currency": “EUR”, //  fixed value always candidate EUR
+"ecommerce.transaction_currency": “EUR”, //  fixed value always  EUR
 "is_remote": "false", // remote work (true) or office work (false)
 "user_registration_status": "registered user", // Fixed value (will always be a registered user)
 "educational_requirement": "apprenticeship / professional training", // Education
