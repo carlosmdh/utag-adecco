@@ -1,0 +1,9 @@
+<!-- UAT Tealim script. Only loads when category C0002 and/or C0004 are accepted. -->
+<!-- Loading script asynchronously -->
+<script type="text/javascript"> 
+(function(a,b,c,d){ 
+a='https://tags.tiqcdn.com/utag/adecco-gro
+b=document;c='script';d=b.createElement(c)
+a=b.getElementsByTagName(c)[0];a.parentNod
+})(); 
+</script> 
