@@ -1,0 +1,28 @@
+"<script type='text/javascript'>
+ utag.view({
+   'tealium_event' : 'candidate_navigation',
+   'method' : 'click link',
+   'click_text' : 'Area Privada',
+   'click_url' : '4dec.co/AreaPrivada',
+   'module_name' : 'navigation ',
+   'page_name' : 'mi perfil',
+   'user_type' : 'job seekers',
+   'country' : 'es',
+   'full_url' : 'https://4dec.co/AreaPrivada',
+   'previous_page' : 'https://4dec.co/MiPerfil',
+   'site_language' : 'es',
+ });
+</script>"
+
+
+
+
+
+
+
+
+
+
+
+
+
