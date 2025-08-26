@@ -1,0 +1,30 @@
+"<script type='text/javascript'>
+ utag.view({
+   'tealium_event' : 'page_view',
+   'page_name' : 'faq',
+   'page_hierarchy' : 'home - employers - faq',
+   'page_level_0' : 'home',
+   'page_level_1' : 'employers',
+   'page_level_2' : 'faq',
+   'page_level_3' : '',
+   'page_type' : 'standard',
+   'site_language' : 'en',
+   'user_type' : 'employer ',
+   'country ' : 'ch',
+   'full_url' : ''
+   'job_system_location' : 'web'
+ });
+</script>"
+
+
+
+
+
+
+
+
+
+
+
+
+
