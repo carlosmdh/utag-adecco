@@ -1,60 +1,32 @@
 "<script type='text/javascript'>
 utag.link({
-  tealium_event: 'purchase',
-  ecommerce.affiliation: F[28]C[-1]'',
-  ecommerce.items.item_name:F[27]C[-2] 'warehouse package handler',
-  ecommerce.items.item_id:  '',
-  ecommerce.items.item_category: 'warehousing',
-  ecommerce.items.item_category2: ',
-  ecommerce.items.item_category3: 'toronto, ontario
-  ecommerce.items.item_category4: '
-  ecommerce.items.item_category5: '1
-  ecommerce.items.item_brand: 'ade us,
-  ecommerce.items.item_variant: 'temporary/contract,
- 'page_name' : 'job detail warehouse package handler'
- 'job_system_location' : 'candidate portal' 
- 'user_type' : 'candidate'
- 'country ' : 'us'
-  'full_url' : ''
-  'currency ' : 'EUR'
-  'job_salary_combined' : '$95,000-$100,000/year'
-  'job_posted_date ' : '28-12-2023'
-  'is_remote' : 'true'
-  'educational requirement' : 'apprenticeship / professional training'
- 'workload' : 'full'
- 'prime_jobs' : 'true'
- 'previous_page' : 'https://www.adecco.com/us/en/search-jobs/?t=&loc='
+  "tealium_event": "purchase", // Use purchase for this event
+"page_name": "job detal mozo/a almacen" // Page Title
+"job_system_location": "4dec"
+"user_type": "candidate",  // fixed value always candidate
+"country": "es", // fixed value always es
+"full_url": window.location.href,
+"ecommerce.affiliation": "unspecified",
+"ecommerce.transaction_id": "29b57db2-929d-4e65-a6f8-3eb64addc19b", // Reference
+"ecommerce.items.item_name": "mozo/a polivalente", // Job Name (Include location)
+"ecommerce.items.item_id": "2BF4795ED45AACC01F30EA23718929FD", // Reference (Capitalized)
+"ecommerce.items.item_category": "transport & logistics”, // Sector (if applicable)
+"ecommerce.items.item_category2": "logistics", //
+"ecommerce.items.item_category3": "zaragoza", // location
+"ecommerce.items.item_category4": "25.000-30.000€", // Salary or salary range
+"ecommerce.items.item_category5": "28-06-2025", // Date of creation / publication of offer
+"ecommerce.items.item_brand": "ade es", // Contracting company
+"ecommerce.items.item_variant": "temporary with possibility of incorporation", // Type of employment contract
+"ecommerce.transaction_value": 1,
+"ecommerce.transaction_currency": “EUR”, //  fixed value always candidate EUR
+"is_remote": "false", // remote work (true) or office work (false)
+"user_registration_status": "registered user", // Fixed value (will always be a registered user)
+"educational_requirement": "apprenticeship / professional training", // Education
+"workload": "full time", // Workday
+"prime_jobs": "false", 
+"previous_page": document.referrer,
+"cv_upload": "unspecified",
+"site_language": “es-es”, // fixed value always es-es
+"fallback_logic_applied": "false"
 });
 </script>"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
