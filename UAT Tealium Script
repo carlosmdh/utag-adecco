@@ -1,4 +1,4 @@
-<!-- UAT Tealim script. Only loads when category C0002 and/or C0004 are accepted. -->
+<!-- UAT Tealium script. Only loads when category C0002 and/or C0004 are accepted. -->
 <!-- Loading script asynchronously -->
 <script type="text/javascript"> 
 (function(a,b,c,d){ 
