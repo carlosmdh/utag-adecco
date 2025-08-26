@@ -1,0 +1,31 @@
+"<script type='text/javascript'>
+ utag.view({
+   'tealium_event' : 'login',
+   'page_name' : 'mi perfil',
+   'page_hierarchy' : 'home - job seekers - Mi perfil',
+   'page_level_0' : 'home',
+   'page_level_1' : 'job seekers',
+   'page_level_2' : 'Mi perfil',
+   'page_level_3' : '',
+   'page_type' : 'standard',
+   'site_language' : 'es',
+   'user_type' : 'candidate',
+   'country ' : 'es',
+   'full_url' : 'https://4dec.co/MiPerfil?signin=true'
+   'job_system_location' : 'candidate portal'
+   'sign_in' : 'true'
+ });
+</script>"
+
+
+
+
+
+
+
+
+
+
+
+
+
