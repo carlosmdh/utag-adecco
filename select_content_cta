@@ -1,0 +1,26 @@
+"<script type='text/javascript'>
+utag.link({
+  'tealium_event' : 'select_content_cta',
+  'method' : 'click button',,
+  'click_text' : 'my button text',
+  'page_name' : 'home',
+  'country ' : 'ch',
+  'user_type ' : 'candidate'
+  'site_language' : 'en'
+  'previous_page' : 'https://www.adecco.com'
+  'click_text' : ' find more'
+  'module_name' : 'hero/navigtation/footer'
+  'full_url' : 'https://www.adecco.com/employers'
+});
+</script>"
+
+
+
+
+
+
+
+
+
+
+
