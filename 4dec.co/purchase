@@ -6,27 +6,27 @@ utag.link({
 "user_type": "candidate",  // fixed value always candidate
 "country": "es", // fixed value always es
 "full_url": window.location.href,
-"ecommerce.affiliation": "unspecified",
+"ecommerce.affiliation": "unspecified", // fixed value always unspecified
 "ecommerce.transaction_id": "29b57db2-929d-4e65-a6f8-3eb64addc19b", // Reference
 "ecommerce.items.item_name": "mozo/a polivalente", // Job Name (Include location)
 "ecommerce.items.item_id": "2BF4795ED45AACC01F30EA23718929FD", // Reference (Capitalized)
-"ecommerce.items.item_category": "transport & logistics”, // Sector (if applicable)
-"ecommerce.items.item_category2": "logistics", //
+"ecommerce.items.item_category": "transport & logistics”, // Area del puesto & Sector (if applicable)
+"ecommerce.items.item_category2": "logistics", // Sector
 "ecommerce.items.item_category3": "zaragoza", // location
 "ecommerce.items.item_category4": "25.000-30.000€", // Salary or salary range
 "ecommerce.items.item_category5": "28-06-2025", // Date of creation / publication of offer
-"ecommerce.items.item_brand": "ade es", // Contracting company
+"ecommerce.items.item_brand": "ade es", // fixed value always ade es
 "ecommerce.items.item_variant": "temporary with possibility of incorporation", // Type of employment contract
 "ecommerce.transaction_value": 1,
 "ecommerce.transaction_currency": “EUR”, //  fixed value always  EUR
-"is_remote": "false", // remote work (true) or office work (false)
+"is_remote": "true/false", // remote work (true) or office work (false)
 "user_registration_status": "registered user", // Fixed value (will always be a registered user)
 "educational_requirement": "apprenticeship / professional training", // Education
 "workload": "full time", // Workday
-"prime_jobs": "false", 
+"prime_jobs": "unspecified", // fixed value always unspecified
 "previous_page": document.referrer,
-"cv_upload": "unspecified",
+"cv_upload": "true/false", // "true if candidate attach CV, false if is not attached
 "site_language": “es-es”, // fixed value always es-es
-"fallback_logic_applied": "false"
+"fallback_logic_applied": "unspecified", // fixed value always unspecified
 });
 </script>"
