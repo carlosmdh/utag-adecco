@@ -12,6 +12,7 @@
    'user_type' : 'candidate',
    'country ' : 'es',
    'full_url' : 'https://4dec.co/MiPerfil?signin=true'
+   'previous_page' : 'https://4dec.co/MiPerfil',
    'job_system_location' : '4dec'
    'sign_in' : 'true'
  });
