@@ -1,12 +1,12 @@
 "<script type='text/javascript'>
 utag.link({
-  'tealium_event' : 'select_content_cta',
+  'tealium_event' : 'select_content',
   'method' : 'click button',,
   'click_text' : 'my button text',
   'page_name' : 'home',
-  'country ' : 'ch',
+  'country ' : 'es',
   'user_type ' : 'candidate'
-  'site_language' : 'en'
+  'site_language' : 'es-es'
   'previous_page' : 'https://www.adecco.com'
   'click_text' : ' find more'
   'module_name' : 'hero/navigtation/footer'
