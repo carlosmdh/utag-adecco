@@ -8,11 +8,11 @@
    'page_level_2' : 'Mi perfil',
    'page_level_3' : '',
    'page_type' : 'standard',
-   'site_language' : 'es',
+   'site_language' : 'es-es',
    'user_type' : 'candidate',
    'country ' : 'es',
    'full_url' : 'https://4dec.co/MiPerfil?signin=true'
-   'job_system_location' : 'candidate portal'
+   'job_system_location' : '4dec'
    'sign_in' : 'true'
  });
 </script>"
