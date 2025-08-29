@@ -6,11 +6,11 @@
    'click_url' : '4dec.co/AreaPrivada',
    'module_name' : 'navigation ',
    'page_name' : 'mi perfil',
-   'user_type' : 'job seekers',
+   'user_type' : 'candidate/employer',
    'country' : 'es',
    'full_url' : 'https://4dec.co/AreaPrivada',
    'previous_page' : 'https://4dec.co/MiPerfil',
-   'site_language' : 'es',
+   'site_language' : 'es-es',
  });
 </script>"
 
