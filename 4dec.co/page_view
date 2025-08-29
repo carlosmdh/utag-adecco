@@ -8,9 +8,9 @@
    'page_level_2' : 'faq',
    'page_level_3' : '',
    'page_type' : 'standard',
-   'site_language' : 'en',
+   'site_language' : 'es-es',
    'user_type' : 'employer ',
-   'country ' : 'ch',
+   'country ' : 'es',
    'full_url' : ''
    'job_system_location' : 'web'
  });
