@@ -4,11 +4,11 @@ utag.link({
   'method' : 'click icon',
   'click_text' : 'download app',
   'click_url' : 'https://apps.apple.com/us/app/adecco/id1518950579',
-  'country ' : 'ch',
+  'country ' : 'es',
   'user_type ' : 'candidate',
   'page_name' : 'workforce solution',
   'full_url' : 'https://www.adecco.com/employers',
-  'site_language' : 'en',
+  'site_language' : 'es-es',
   'previous_page' : 'https://www.adecco.com',
 });
 </script>"
