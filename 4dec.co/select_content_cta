@@ -3,12 +3,12 @@ utag.link({
   'tealium_event' : 'select_content',
   'method' : 'click button',,
   'click_text' : 'my button text',
+  'click_url' : '4dec.co/AreaPrivada',
   'page_name' : 'home',
   'country ' : 'es',
   'user_type ' : 'candidate'
   'site_language' : 'es-es'
   'previous_page' : 'https://www.adecco.com'
-  'click_text' : ' find more'
   'module_name' : 'hero/navigtation/footer'
   'full_url' : 'https://www.adecco.com/employers'
 });
