@@ -11,6 +11,8 @@
    'site_language' : 'es-es',
    'user_type' : 'employer ',
    'country ' : 'es',
+   'full_url' : 'https://4dec.co/MiPerfil?signin=true'
+   'previous_page' : 'https://4dec.co/MiPerfil',
    'full_url' : ''
    'job_system_location' : 'web'
  });
