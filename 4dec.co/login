@@ -1,5 +1,5 @@
 "<script type='text/javascript'>
- utag.view({
+ utag.link({
    'tealium_event' : 'login',
    'page_name' : 'mi perfil',
    'page_hierarchy' : 'home - job seekers - Mi perfil',
