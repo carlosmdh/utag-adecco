@@ -1,9 +1,9 @@
 <!-- PROD Tealium script. Only loads when category C0002 and/or C0004 are accepted. -->
-<!-- Loading script asynchronously -->
-<script type="text/javascript"> 
-(function(a,b,c,d){ 
-a='https://tags.tiqcdn.com/utag/adecco-gro
-b=document;c='script';d=b.createElement(c)
-a=b.getElementsByTagName(c)[0];a.parentNod
-})(); 
- </script>
+<!-- Loading script asynchronously -->  
+<script type="text/javascript">
+    (function(a,b,c,d){
+    a='https://tags.tiqcdn.com/utag/adecco-group/adecco.com/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
