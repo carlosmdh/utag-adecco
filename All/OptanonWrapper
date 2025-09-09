@@ -1,4 +1,4 @@
-Function OptanonWrapper – para cargar Tealium solo cuando se acepten esas cookies:
+<!-- Function OptanonWrapper – para cargar Tealium solo cuando se acepten esas cookies -->
 function OptanonWrapper() {
   if (typeof OptanonActiveGroups !== 'undefined') {
     const groups = OptanonActiveGroups.split(',');
