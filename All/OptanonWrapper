@@ -1,0 +1,15 @@
+Function OptanonWrapper – para cargar Tealium solo cuando se acepten esas cookies:
+function OptanonWrapper() {
+  if (typeof OptanonActiveGroups !== 'undefined') {
+    const groups = OptanonActiveGroups.split(',');
+    if (groups.includes("C0004") || groups.includes("C0002")) {
+      var tealiumScript = document.createElement("script");
+      tealiumScript.src = "https://tags.tiqcdn.com/utag/adecco-group/adecco.com/prod/utag.js";
+      tealiumScript.async = true;
+      tealiumScript.onload = function () {
+        window.tealiumLoaded = true;
+      };
+      document.head.appendChild(tealiumScript);
+    }
+  }
+}
