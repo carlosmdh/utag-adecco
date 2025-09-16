@@ -1,16 +1,16 @@
 "<script type='text/javascript'>
  utag.link({
    'tealium_event' : 'candidate_navigation',
-   'method' : 'click link',
-   'click_text' : 'Area Privada',
-   'click_url' : '4dec.co/AreaPrivada',
+   'method' : 'click link', // valor fijo
+   'click_text' : 'Area Privada', // texto que aparece en el menu. Texto del elememto en el que se hace click
+   'click_url' : '4dec.co/AreaPrivada', //url destino del click
    'module_name' : 'navigation ',
-   'page_name' : 'mi perfil',
+   'page_name' : 'mi perfil', // Página desde la que se hace click
    'user_type' : 'candidate/employer',
-   'country' : 'es',
-   'full_url' : 'https://4dec.co/AreaPrivada',
-   'previous_page' : 'https://4dec.co/MiPerfil',
-   'site_language' : 'es-es',
+   'country' : 'es', // valor fijo
+   'full_url' : 'https://4dec.co/AreaPrivada', // url de la página desde la que se hace click
+   'previous_page' : 'https://4dec.co/MiPerfil', // Página anterior que se visitó (NOTA: ¿La última coma sobra?)
+   'site_language' : 'es-es', // valor fijo (NOTA: ¿La última coma sobra?)
  });
 </script>"
 
