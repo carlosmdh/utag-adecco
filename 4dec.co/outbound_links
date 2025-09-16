@@ -1,23 +1,15 @@
 "<script type='text/javascript'>
 utag.link({
   'tealium_event' : 'outbound_links',
-  'method' : 'click icon', // o click navigation
+  'method' : 'click link', // valor fijo
   'click_text' : 'download app', // My Talent Map o Blog Empleo. María ¿Prefieres mejor Employment Blog para la segunda opción?
   'click_url' : 'https://apps.apple.com/us/app/adecco/id1518950579', // url de MyTalentMap o dell blog
-  'country ' : 'es',
-  'user_type ' : 'candidate',
+  'module_name' : 'navigation ',
   'page_name' : 'workforce solution', // Página desde la que se hace click
+  'user_type ' : 'candidate', // valor fijo
+  'country ' : 'es', // valor fijo
   'full_url' : 'https://www.adecco.com/employers', // url de la página desde la que se hace click
-  'site_language' : 'es-es', // valor fijo
-  'previous_page' : 'https://www.adecco.com', //Página anterior que se visitó (NOTA: ¿La última coma sobra?)
+  'previous_page' : 'https://www.adecco.com', // Página anterior que se visitó
+  'site_language' : 'es-es', // valor fijo (NOTA: ¿La última coma sobra?)
 });
 </script>"
-
-
-
-
-
-
-
-
-
