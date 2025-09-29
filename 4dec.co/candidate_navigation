@@ -6,7 +6,7 @@
    'click_url' : '4dec.co/AreaPrivada', //url destino del click
    'module_name' : 'navigation ',
    'page_name' : 'mi perfil', // Página desde la que se hace click
-   'user_type' : 'candidate',
+   'user_type' : 'candidate', // valor fijo
    'country' : 'es', // valor fijo
    'full_url' : 'https://4dec.co/AreaPrivada', // url de la página desde la que se hace click
    'previous_page' : 'https://4dec.co/MiPerfil', // Página anterior que se visitó (NOTA: ¿La última coma sobra?)
