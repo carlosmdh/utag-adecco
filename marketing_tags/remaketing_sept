@@ -1,7 +1,7 @@
 <script type="text/javascript">
     var pagina = "rtg";
     var urlParams = new URLSearchParams(window.location.search);
-    var client_id = idc; // Must be change (Key and/or value) to unique_lead_id? (consult with Raquel Maruenda)
+    var client_id = idc; // QUESTION: Must be change (Key and/or value) to unique_lead_id? (consult with Raquel Maruenda)
     var todo = window.location.href.split("&");
     var utm_source = "";   var utm_medium = "";   var utm_term = "";    var utm_content = "";   var utm_campaign = "";
 
@@ -14,7 +14,7 @@
         utm_campaign = todo[4].split("=")[1];
     }
 
-    var pixelUrl = "https://revenuemakerdata.com/trackings/Landing_addeco_rtg_sept_2025.php?client_id=" + client_id + "&referer="+referer+"&utm_source="+utm_source+"&utm_medium="+utm_medium+"&utm_term="+utm_term+"&utm_content="+utm_content+"&utm_campaign="+utm_campaign+"&pagina="+pagina; // Must be change (Key and/or value) to unique_lead_id? (consult with Raquel Maruenda)
+    var pixelUrl = "https://revenuemakerdata.com/trackings/Landing_addeco_rtg_sept_2025.php?client_id=" + client_id + "&referer="+referer+"&utm_source="+utm_source+"&utm_medium="+utm_medium+"&utm_term="+utm_term+"&utm_content="+utm_content+"&utm_campaign="+utm_campaign+"&pagina="+pagina; // QUESTION: Must be change (Key and/or value) to unique_lead_id? (consult with Raquel Maruenda)
     var pixelImg = new Image(); pixelImg.style.display="none";
         pixelImg.src = pixelUrl;
     document.body.appendChild(pixelImg);
