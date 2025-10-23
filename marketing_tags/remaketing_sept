@@ -1,0 +1,28 @@
+<script type="text/javascript">
+    var pagina = "rtg";
+    var urlParams = new URLSearchParams(window.location.search);
+    var client_id = idc; // Must be change (Key and/or value) to unique_lead_id? (consult with Raquel Maruenda)
+    var todo = window.location.href.split("&");
+    var utm_source = "";   var utm_medium = "";   var utm_term = "";    var utm_content = "";   var utm_campaign = "";
+
+    var referer = window.document.referrer;
+    if (todo.length>3) {
+        utm_source = todo[0].split("=")[1];
+        utm_medium = todo[1].split("=")[1];
+        utm_term = todo[2].split("=")[1];
+        utm_content = todo[3].split("=")[1];
+        utm_campaign = todo[4].split("=")[1];
+    }
+
+    var pixelUrl = "https://revenuemakerdata.com/trackings/Landing_addeco_rtg_sept_2025.php?client_id=" + client_id + "&referer="+referer+"&utm_source="+utm_source+"&utm_medium="+utm_medium+"&utm_term="+utm_term+"&utm_content="+utm_content+"&utm_campaign="+utm_campaign+"&pagina="+pagina; // Must be change (Key and/or value) to unique_lead_id? (consult with Raquel Maruenda)
+    var pixelImg = new Image(); pixelImg.style.display="none";
+        pixelImg.src = pixelUrl;
+    document.body.appendChild(pixelImg);
+   
+    var axel = Math.random() + "";
+    var a = axel * 10000000000000;
+
+    var pixelImg_2 = new Image(); pixelImg_2.style.display="none";
+        pixelImg_2.src = 'https://ad.doubleclick.net/ddm/activity/src=14207871;type=invmedia;cat=2025_004;u2=[url];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=' + a;
+    document.body.appendChild(pixelImg_2);
+</script>
