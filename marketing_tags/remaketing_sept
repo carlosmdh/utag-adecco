@@ -26,3 +26,5 @@
         pixelImg_2.src = 'https://ad.doubleclick.net/ddm/activity/src=14207871;type=invmedia;cat=2025_004;u2=[url];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=' + a;
     document.body.appendChild(pixelImg_2);
 </script>
+
+// NOTE: Trigger is page_view matches the regular expression ^//(companies|adecco-staffing|adecco-outsourcing|recruitment-selection|adecco-training|adecco-consulting|sectors|company-SMEs|insights|salary-guide)(/.*)?$
